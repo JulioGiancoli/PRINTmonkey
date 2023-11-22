@@ -181,7 +181,7 @@ small{
 
 .container{
   display:flex;
-  padding: 100px;
+  padding: 100px 200px;
 }
 
 .text{
