@@ -39,7 +39,8 @@ header img {
 
 main p,
 main h1,
-main h2 {
+main h2,
+main h3{
   color: #fff;
 }
 
@@ -96,7 +97,7 @@ main h1{
 }
 
 footer {
-  background-color: #fff500;
+  background-color: #fff700c9;
   border: solid 1px;
   display: flex;
   height: 250px;
