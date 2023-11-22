@@ -43,36 +43,14 @@ main h2 {
   color: #fff;
 }
 
-main article p {
-  width: 400px;
-  padding: 20px;
-}
+
 
 main section img:hover{
   border: #fff500 2px solid;
 }
 
-article {
-  padding: 40px;
-  width: 1000px;
-  display: flex;
-}
 
 
-.resumo {
-  font-size: larger;
-  display: block;
-  color: #fff;
-  width: 1280px;
-  text-align: start;
-  padding-bottom: 40px;
-}
-
-.resumo p {
-  width: 1280px;
-  padding: 30px 0px;
-  text-align: start;
-}
 
 
 main hr {
@@ -191,4 +169,23 @@ ul hr{
 small{
   background-color: #fff500;
   border: 1px solid;
+}
+
+.intro{
+  padding: 70px;
+}
+
+.intro h1{
+  padding-bottom: 15px;
+}
+
+.container{
+  display:flex;
+  padding: 100px;
+}
+
+.text{
+  font-size: larger;
+  padding-left: 30px;
+  padding-right: 10px;
 }
