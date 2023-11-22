@@ -1,0 +1,178 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0px auto 0px auto;
+}
+
+html {
+  background-color: #252525;
+}
+
+body {
+  width: 1560px;
+  background-color: #161616;
+}
+
+header nav {
+
+  display: flex;
+  background-color: #fff500;
+}
+
+header nav a {
+  border: 1px solid;
+  width: 324px;
+  padding: 5px 20px 5px 20px;
+  text-align: center;
+  font-family: 'Inria Sans', sans-serif;
+  font-weight: bolder;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #000;
+}
+
+header img {
+  border: 1px solid;
+}
+
+main p,
+main h1,
+main h2 {
+  color: #fff;
+}
+
+main article p {
+  width: 400px;
+  padding: 20px;
+}
+
+main section img:hover {
+  border: #fff500 2px solid;
+}
+
+main hr {
+  color: rgb(165, 165, 165);
+}
+
+main {
+  margin: auto;
+  width: 1480px;
+  background-color: #000;
+  padding-bottom: 30px;
+}
+
+.titulo {
+  font-size: xx-large;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.tamanhofont{
+  font-size: xx-large;
+}
+main h1 {
+  font-family: 'Inria Sans', sans-serif;
+}
+
+footer {
+  background-color: #fff500;
+  border: solid 1px;
+  display: flex;
+  height: 250px;
+}
+
+
+footer nav {
+  font-family: 'Inria Sans', sans-serif;
+  width: 700px;
+  text-align: center;
+}
+
+footer nav ul {
+  width: 300px;
+}
+
+footer nav ul li {
+  padding: 10px;
+  list-style: none;
+}
+
+footer ul li a {
+  color: #000;
+  text-decoration: none;
+}
+
+footer nav ul li a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+.socials {
+  width: 700px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.socials img {
+  border-radius: 15%;
+}
+
+.footing {
+  width: 50%;
+  display: flex;
+}
+
+footer hr {
+  height: 200px;
+}
+
+main hr {
+  color: rgb(165, 165, 165);
+}
+small {
+  background-color: #fff500;
+}
+
+ul hr {
+  height: auto;
+  margin-top: 5px;
+}
+
+small {
+  background-color: #fff500;
+  border: 1px solid;
+}
+
+ .imgs1{
+  display: flex;
+  padding 300px 70px ;
+  flex-direction: row;
+}
+
+section p{
+  padding-top: 100px;
+  padding-left: 30px;
+}
+
+.nav1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-basis: auto;
+}
+.footing hr{
+  height: auto;
+}
+
+.fig1{
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
+
+a img{
+ border: none;
+}

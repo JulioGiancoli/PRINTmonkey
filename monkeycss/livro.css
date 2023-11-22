@@ -1,0 +1,194 @@
+* {
+  margin: auto auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #252525;
+}
+
+body {
+  width: 1560px;
+  background-color: #161616;
+}
+
+header nav {
+
+  display: flex;
+  background-color: #fff500;
+}
+
+header nav a{
+  border: 1px solid;
+  width: 324px;
+  padding: 5px 20px 5px 20px;
+  text-align: center;
+  font-family: 'Inria Sans', sans-serif;
+  font-weight: bolder;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #000;
+}
+
+header img {
+  border: 1px solid;
+}
+
+main p,
+main h1,
+main h2 {
+  color: #fff;
+}
+
+main article p {
+  width: 400px;
+  padding: 20px;
+}
+
+main section img:hover{
+  border: #fff500 2px solid;
+}
+
+article {
+  padding: 40px;
+  width: 1000px;
+  display: flex;
+}
+
+
+.resumo {
+  font-size: larger;
+  display: block;
+  color: #fff;
+  width: 1280px;
+  text-align: start;
+  padding-bottom: 40px;
+}
+
+.resumo p {
+  width: 1280px;
+  padding: 30px 0px;
+  text-align: start;
+}
+
+
+main hr {
+  color: rgb(165, 165, 165);
+}
+
+main {
+  width: 1480px;
+  background-color: #000;
+}
+
+.og, .tim, .new{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.og figure, .tim figure{
+  padding: 20px;
+  
+}
+
+.og a, .tim a, .new a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.og a:hover, .tim a:hover, .new a:hover{
+  color: #fff500;
+  text-decoration: underline;
+}
+
+.new figure{
+  padding: 20px 10px;
+}
+
+.titulo{
+  margin-left: 60px;
+  padding: 15px 0px;
+}
+
+main h1{
+  font-family: 'Inria Sans', sans-serif;
+}
+
+footer {
+  background-color: #fff500;
+  border: solid 1px;
+  display: flex;
+  height: 250px;
+}
+
+
+footer nav {
+  font-family: 'Inria Sans', sans-serif;
+  width: 700px; 
+  text-align: center;
+}
+
+footer nav ul{
+  width: 300px;
+}
+
+footer nav ul li {
+  padding: 10px;
+  list-style: none;
+}
+
+footer ul li a {
+  color: #000;
+  text-decoration: none;
+}
+
+footer nav ul li a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+.socials {
+  width: 700px;
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-between;
+}
+
+.socials img{
+  border-radius: 15%;
+}
+
+.footing {
+  width: 50%;
+  display: flex;
+}
+
+footer hr{
+  height: 198px;
+}
+
+main hr{
+  color: rgb(165, 165, 165);
+}
+
+
+footer hr{
+  height: 248px;
+}
+
+small{
+  background-color: #fff500;
+}
+
+ul hr{
+  height: auto;
+  margin-top: 5px;
+}
+
+small{
+  background-color: #fff500;
+  border: 1px solid;
+}
