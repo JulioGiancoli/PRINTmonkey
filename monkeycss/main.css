@@ -49,6 +49,12 @@ main{
   color: white;
 }
 
+main h2{
+  padding-top: 20px;
+  margin-left: 200px;
+  margin-bottom: -10px;
+}
+
 main p{
   font-size: large;
 }

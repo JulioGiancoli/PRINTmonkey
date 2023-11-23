@@ -1,0 +1,185 @@
+* {
+    margin: auto auto;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    background-color: #252525;
+  }
+  
+  body {
+    width: 1560px;
+    background-color: #161616;
+  }
+  /* alteraçoes no header */
+  header nav {
+  
+    display: flex;
+    background-color: #fff500;
+  }
+  
+  header nav a{
+    border: 1px solid;
+    width: 324px;
+    padding: 5px 20px 5px 20px;
+    text-align: center;
+    font-family: 'Inria Sans', sans-serif;
+    font-weight: bolder;
+  }
+  
+  header nav a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  header img {
+    border: 1px solid;
+  }
+  
+  /* alterações no corpo principal da pagina */
+  main p,
+  main h1,
+  main h2 {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  main article p {
+    width: 1000px;
+    
+    font-size: large;
+  }
+  
+  main section img:hover{
+    border: #fff500 2px solid;
+  }
+  
+  article {
+    padding: 40px;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  .mid{
+    padding: 30px;
+    display: flex;
+  }
+  
+  
+  main hr {
+    color: rgb(165, 165, 165);
+  }
+  
+  main {
+    width: 1480px;
+    background-color: #000;
+  }
+  
+  #section1{
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+  }
+  #section2 {
+    display: flex;
+    flex-direction: row;
+  }
+  #section2 p {
+    width: 1000px;
+  }
+  #imgcapa{
+    margin-left: 0%;
+  }
+  #section1 p{
+    width: 600px;
+    margin-left: 0;
+  }
+  
+  .titulo{
+    margin-left: 90px;
+  }
+  /* alterações no footer */
+  
+  
+  
+  footer {
+    background-color: #fff500;
+    border: solid 1px;
+    display: flex;
+    height: 300px;
+    color: #000;
+  }
+
+  footer ul h2{
+    color: #000;
+  }
+  
+  footer nav {
+    font-family: 'Inria Sans', sans-serif;
+    width: 700px; 
+    text-align: center;
+    
+  }
+  
+  footer nav ul{
+    width: 300px;
+  }
+  
+  footer nav ul li {
+    padding: 10px;
+    list-style: none;
+  }
+  
+  footer ul li a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  footer nav ul li a:hover {
+    color: blue;
+    text-decoration: underline;
+  }
+  
+  .socials {
+    width: 700px;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+  }
+  
+  .socials img{
+    border-radius: 15%;
+  }
+  
+  .footing {
+    width: 50%;
+    display: flex;
+  }
+  
+  footer hr{
+    height: 298px;
+  }
+  
+  main hr{
+    color: rgb(165, 165, 165);
+  }
+  
+  
+
+  small{
+    background-color: #fff500;
+  }
+  
+  ul hr{
+    height: auto;
+    margin-top: 5px;
+  }
+  
+  small{
+    background-color: #fff500;
+    border: 1px solid;
+  }
+  
