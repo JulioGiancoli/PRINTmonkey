@@ -13,8 +13,8 @@ body {
   background-color: #161616;
 }
 
+/* Configurações do header */
 header nav {
-
   display: flex;
   background-color: #fff500;
 }
@@ -36,44 +36,19 @@ header nav a {
 header img {
   border: 1px solid;
 }
+/* A partir daqui sao feitas as alterações visuais do corpo principal da página */
 
 main p,
 main h1,
 main h2 {
   color: #fff;
+  font-family: 'Roboto', sans-serif;
 }
 
-main article p {
-  width: 400px;
-  padding: 20px;
-}
 
 main section img:hover{
   border: #fff500 2px solid;
 }
-
-article {
-  padding: 40px;
-  width: 1000px;
-  display: flex;
-}
-
-
-.resumo {
-  font-size: larger;
-  display: block;
-  color: #fff;
-  width: 1280px;
-  text-align: start;
-  padding-bottom: 40px;
-}
-
-.resumo p {
-  width: 1280px;
-  padding: 30px 0px;
-  text-align: start;
-}
-
 
 main hr {
   color: rgb(165, 165, 165);
@@ -83,39 +58,33 @@ main {
   width: 1480px;
   background-color: #000;
 }
-
-.og, .tim, .new{
-  display: flex;
-  flex-wrap: wrap;
+main section{
+  margin-left: 50px;
 }
 
-.og figure, .tim figure{
-  padding: 20px;
-  
+main section{
+  display:flex;
+  padding: 70px;
+}
+main section p{
+  margin-left: 0 ;
+  width:80%;
+  font-size: large;
 }
 
-.og a, .tim a, .new a{
-  color: #fff;
-  text-decoration: none;
+.biografia{
+  display:block;
+  flex-direction: column;
+}
+main section img{
+  margin-left: 10%;
 }
 
-.og a:hover, .tim a:hover, .new a:hover{
-  color: #fff500;
-  text-decoration: underline;
+main hr{
+  color: rgb(165, 165, 165);
 }
 
-.new figure{
-  padding: 20px 10px;
-}
-
-.titulo{
-  margin-left: 60px;
-  padding: 15px 0px;
-}
-
-main h1{
-  font-family: 'Inria Sans', sans-serif;
-}
+/* A partir daqui começam as alterações visuais do footer */
 
 footer {
   background-color: #fff500;
@@ -170,11 +139,6 @@ footer hr{
   height: 198px;
 }
 
-main hr{
-  color: rgb(165, 165, 165);
-}
-
-
 footer hr{
   height: 248px;
 }
@@ -191,20 +155,4 @@ ul hr{
 small{
   background-color: #fff500;
   border: 1px solid;
-}
-main section{
-  display:flex;
-  padding: 70px;
-}
-main section p{
-  margin-left: 0 ;
-  width:70%;
-}
-
-.biografia{
-  display:block;
-  flex-direction: column;
-}
-main section img{
-  margin-left: 10%;
 }

@@ -13,6 +13,7 @@ body {
   background-color: #161616;
 }
 
+/* alterações do header */
 header nav {
 
   display: flex;
@@ -37,22 +38,18 @@ header img {
   border: 1px solid;
 }
 
+/* alterações no corpo principal */
 main p,
 main h1,
 main h2,
 main h3{
   color: #fff;
+  font-family: 'Roboto', sans-serif;
 }
-
-
 
 main section img:hover{
   border: #fff500 2px solid;
 }
-
-
-
-
 
 main hr {
   color: rgb(165, 165, 165);
@@ -63,44 +60,35 @@ main {
   background-color: #000;
 }
 
-.og, .tim, .new{
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.og figure, .tim figure{
-  padding: 20px;
-  
-}
-
-.og a, .tim a, .new a{
-  color: #fff;
-  text-decoration: none;
-}
-
-.og a:hover, .tim a:hover, .new a:hover{
-  color: #fff500;
-  text-decoration: underline;
-}
-
-.new figure{
-  padding: 20px 10px;
-}
-
-.titulo{
-  margin-left: 60px;
-  padding: 15px 0px;
-}
-
 main h1{
   font-family: 'Inria Sans', sans-serif;
 }
 
+.intro{
+  padding: 70px;
+}
+
+.intro h1{
+  padding-bottom: 15px;
+}
+
+.container{
+  display:flex;
+  padding: 100px 150px;
+}
+
+.text{
+  font-size: larger;
+  padding-left: 30px;
+  padding-right: 10px;
+}
+/* Alterações no footer */
+
 footer {
-  background-color: #fff700c9;
+  background-color: #fff500;
   border: solid 1px;
   display: flex;
-  height: 250px;
+  height: 300px;
 }
 
 
@@ -146,17 +134,13 @@ footer nav ul li a:hover {
 }
 
 footer hr{
-  height: 198px;
+  height: 298px;
 }
 
 main hr{
   color: rgb(165, 165, 165);
 }
 
-
-footer hr{
-  height: 248px;
-}
 
 small{
   background-color: #fff500;
@@ -170,23 +154,4 @@ ul hr{
 small{
   background-color: #fff500;
   border: 1px solid;
-}
-
-.intro{
-  padding: 70px;
-}
-
-.intro h1{
-  padding-bottom: 15px;
-}
-
-.container{
-  display:flex;
-  padding: 100px 200px;
-}
-
-.text{
-  font-size: larger;
-  padding-left: 30px;
-  padding-right: 10px;
 }

@@ -22,15 +22,15 @@ header nav{
 
 header nav a{
   border: 1px solid;
-  width:  324px;
+  width: 324px;
   padding: 5px 20px 5px 20px;
   text-align: center;
-  font-family: 'Inria Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: bolder;
 }
 
 h1, h2{
-  font-family: 'Inria Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 header nav a{
   text-decoration: none;
@@ -41,6 +41,7 @@ header img{
   border: 1px solid;
 }
 
+/* alteração no conteudo principal */
 
 main{
   width: 1400px;
@@ -48,8 +49,12 @@ main{
   color: white;
 }
 
+main p{
+  font-size: large;
+}
 main article p{
   padding: 20px;
+  font-family: 'Roboto', sans-serif;
 }
 
 article{
@@ -61,6 +66,7 @@ article{
 main article a{
   text-decoration: none;
   color: white;
+  font-family: 'Roboto', sans-serif;
 }
 
 main article img:hover{
@@ -81,6 +87,7 @@ main article img:hover{
 .resumo p{
   width: 800px;
   padding: 20px;
+  font-size: large;
 } 
 
 footer {
@@ -94,7 +101,7 @@ footer {
 footer nav {
   width: 700px; 
   text-align: center;
-  font-family: 'Inria Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 footer nav ul{

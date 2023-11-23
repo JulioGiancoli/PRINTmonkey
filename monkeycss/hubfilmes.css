@@ -13,6 +13,7 @@ body {
   background-color: #161616;
 }
 
+/* alterações no header */
 header nav {
 
   display: flex;
@@ -24,7 +25,7 @@ header nav a{
   width: 324px;
   padding: 5px 20px 5px 20px;
   text-align: center;
-  font-family: 'Inria Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: bolder;
 }
 
@@ -37,15 +38,18 @@ header img {
   border: 1px solid;
 }
 
+/* aterações no corpo principal da paginal */
+
 main p,
 main h1,
 main h2 {
   color: #fff;
 }
 
-main article p {
+main p {
   width: 400px;
   padding: 20px;
+  font-family: 'Roboto', sans-serif;
 }
 
 main section img:hover{
@@ -66,6 +70,7 @@ article {
   width: 1280px;
   text-align: start;
   padding-bottom: 40px;
+  margin-left: 20px;
 }
 
 .resumo p {
@@ -114,19 +119,25 @@ main {
 }
 
 main h1{
-  font-family: 'Inria Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
+
+main a{
+  font-family: 'Roboto', sans-serif;
+}
+
+/* alterações no footer */
 
 footer {
   background-color: #fff500;
   border: solid 1px;
   display: flex;
-  height: 250px;
+  height: 300px;
 }
 
 
 footer nav {
-  font-family: 'Inria Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   width: 700px; 
   text-align: center;
 }
@@ -167,7 +178,7 @@ footer nav ul li a:hover {
 }
 
 footer hr{
-  height: 198px;
+  height: 298px;
 }
 
 main hr{
@@ -175,9 +186,6 @@ main hr{
 }
 
 
-footer hr{
-  height: 248px;
-}
 
 small{
   background-color: #fff500;

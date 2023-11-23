@@ -13,6 +13,7 @@ body {
   background-color: #161616;
 }
 
+/*  alterações no header */
 header nav {
 
   display: flex;
@@ -37,15 +38,13 @@ header img {
   border: 1px solid;
 }
 
+/* alterações no conteudo principal da pagina */
+
 main p,
 main h1,
 main h2 {
   color: #fff;
-}
-
-main article p {
-  width: 400px;
-  padding: 20px;
+  font-family: 'Roboto', sans-serif;
 }
 
 main section img:hover {
@@ -69,17 +68,48 @@ main {
   padding-bottom: 10px;
 }
 .tamanhofont{
-  font-size: xx-large;
+  font-size: x-large;
+  margin-top: 90px;
 }
-main h1 {
+main h2 {
   font-family: 'Inria Sans', sans-serif;
+  
 }
 
+.fig1{
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
+
+a img{
+ border: none;
+}
+
+.imgs1{
+  display: flex;
+  padding: 200px 70px ;
+  flex-direction: row;
+}
+
+section p{
+  padding-top: 100px;
+  padding-left: 30px;
+}
+
+.nav1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-basis: auto;
+}
+
+/* Aqui começam as alterações no footer */
 footer {
   background-color: #fff500;
   border: solid 1px;
   display: flex;
-  height: 250px;
+  height: 300px;
 }
 
 
@@ -126,7 +156,7 @@ footer nav ul li a:hover {
 }
 
 footer hr {
-  height: 200px;
+  height: 298px;
 }
 
 main hr {
@@ -146,33 +176,8 @@ small {
   border: 1px solid;
 }
 
- .imgs1{
-  display: flex;
-  padding 300px 70px ;
-  flex-direction: row;
-}
 
-section p{
-  padding-top: 100px;
-  padding-left: 30px;
-}
-
-.nav1{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  flex-basis: auto;
-}
 .footing hr{
   height: auto;
 }
 
-.fig1{
-  padding-left: 30px;
-  padding-bottom: 30px;
-}
-
-a img{
- border: none;
-}

@@ -13,6 +13,7 @@ body {
   background-color: #161616;
 }
 
+/* alterações no header */
 header nav {
 
   display: flex;
@@ -37,6 +38,8 @@ header img {
   border: 1px solid;
 }
 
+/* alterações no conteudo principal do site */
+
 main p,
 main h1,
 main h2 {
@@ -52,13 +55,6 @@ main p {
 main section img:hover{
   border: #fff500 2px solid;
 }
-
-article {
-  padding: 40px;
-  width: 1000px;
-  display: flex;
-}
-
 
 .resumo {
   font-size: larger;
@@ -97,9 +93,6 @@ main a{
   text-decoration: none;
 }
 
-.new figure{
-  padding: 20px 10px;
-}
 
 .titulo{
   margin-left: 60px;

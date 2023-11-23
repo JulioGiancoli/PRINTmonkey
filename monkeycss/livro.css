@@ -12,7 +12,7 @@ body {
   width: 1560px;
   background-color: #161616;
 }
-
+/* alteraçoes no header */
 header nav {
 
   display: flex;
@@ -37,15 +37,18 @@ header img {
   border: 1px solid;
 }
 
+/* alterações no corpo principal da pagina */
 main p,
 main h1,
 main h2 {
   color: #fff;
+  font-family: 'Roboto', sans-serif;
 }
 
 main article p {
   width: 1000px;
-  padding: px;
+  
+  font-size: large;
 }
 
 main section img:hover{
@@ -56,24 +59,12 @@ article {
   padding: 40px;
   width: 1200px;
   display: flex;
-
   flex-direction: column;
 }
 
 
-.resumo {
-  font-size: larger;
-  display: block;
-  color: #fff;
-  width: 1280px;
-  text-align: start;
-  padding-bottom: 40px;
-}
-
-.resumo p {
-  width: 1280px;
-  padding: 30px 0px;
-  text-align: start;
+.mid{
+  padding: 30px;
 }
 
 
@@ -86,38 +77,29 @@ main {
   background-color: #000;
 }
 
-.og, .tim, .new{
+#section1{
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 0px;
+}
+#section2 {
+  display: flex;
+  flex-direction: row;
+}
+#section2 p {
+  width: 1000px;
+}
+#imgcapa{
+  margin-left: 0%;
+}
+#section1 p{
+  width: 600px;
+  margin-left: 0;
 }
 
-.og figure, .tim figure{
-  padding: 20px;
-  
-}
+/* alterações no footer */
 
-.og a, .tim a, .new a{
-  color: #fff;
-  text-decoration: none;
-}
 
-.og a:hover, .tim a:hover, .new a:hover{
-  color: #fff500;
-  text-decoration: underline;
-}
-
-.new figure{
-  padding: 20px 10px;
-}
-
-.titulo{
-  margin-left: 60px;
-  padding: 15px 0px;
-}
-
-main h1{
-  font-family: 'Inria Sans', sans-serif;
-}
 
 footer {
   background-color: #fff500;
@@ -193,27 +175,4 @@ ul hr{
 small{
   background-color: #fff500;
   border: 1px solid;
-}
-/* main article img{
-  margin-left
-
-} */
-#section1{
-  display: flex;
-  flex-direction: row;
-  margin: 0px;
-}
-#section2 {
-  display: flex;
-  flex-direction: row;
-}
-#section2 p {
-  width: 1000px;
-}
-#imgcapa{
-  margin-left: 0%;
-}
-#section1 p{
-  width: 600px;
-  margin-left: 0;
 }
