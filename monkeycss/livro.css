@@ -44,8 +44,8 @@ main h2 {
 }
 
 main article p {
-  width: 400px;
-  padding: 20px;
+  width: 1000px;
+  padding: px;
 }
 
 main section img:hover{
@@ -54,8 +54,10 @@ main section img:hover{
 
 article {
   padding: 40px;
-  width: 1000px;
+  width: 1200px;
   display: flex;
+
+  flex-direction: column;
 }
 
 
@@ -191,4 +193,27 @@ ul hr{
 small{
   background-color: #fff500;
   border: 1px solid;
+}
+/* main article img{
+  margin-left
+
+} */
+#section1{
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+}
+#section2 {
+  display: flex;
+  flex-direction: row;
+}
+#section2 p {
+  width: 1000px;
+}
+#imgcapa{
+  margin-left: 0%;
+}
+#section1 p{
+  width: 600px;
+  margin-left: 0;
 }

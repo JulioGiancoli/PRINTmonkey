@@ -24,7 +24,7 @@ header nav a{
   width: 324px;
   padding: 5px 20px 5px 20px;
   text-align: center;
-  font-family: 'Inria Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: bolder;
 }
 
@@ -46,6 +46,7 @@ main h2 {
 main article p {
   width: 400px;
   padding: 20px;
+  
 }
 
 main section img:hover{
@@ -74,6 +75,12 @@ article {
   text-align: start;
 }
 
+.resumo pre {
+ margin-left: -47px;
+ font-family: 'Roboto', sans-serif;
+ font-size: normal;
+}
+
 
 main hr {
   color: rgb(165, 165, 165);
@@ -82,6 +89,7 @@ main hr {
 main {
   width: 1480px;
   background-color: #000;
+  font-family: 'Roboto', sans-serif;
 }
 
 .og, .tim, .new{
@@ -110,11 +118,11 @@ main {
 
 .titulo{
   margin-left: 60px;
-  padding: 15px 0px;
+  padding: 40px 50px;
 }
 
 main h1{
-  font-family: 'Inria Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 footer {
@@ -192,3 +200,10 @@ small{
   background-color: #fff500;
   border: 1px solid;
 }
+
+figure{
+  text-align: center;
+}
+
+
+

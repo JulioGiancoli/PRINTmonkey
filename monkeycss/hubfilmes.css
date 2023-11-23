@@ -192,19 +192,3 @@ small{
   background-color: #fff500;
   border: 1px solid;
 }
-main section{
-  display:flex;
-  padding: 70px;
-}
-main section p{
-  margin-left: 0 ;
-  width:70%;
-}
-
-.biografia{
-  display:block;
-  flex-direction: column;
-}
-main section img{
-  margin-left: 10%;
-}
