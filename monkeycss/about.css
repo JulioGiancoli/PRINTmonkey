@@ -90,7 +90,7 @@ footer {
   background-color: #fff500;
   border: solid 1px;
   display: flex;
-  height: 250px;
+  height: 300px;
 }
 
 
@@ -135,12 +135,9 @@ footer nav ul li a:hover {
   display: flex;
 }
 
-footer hr{
-  height: 198px;
-}
 
 footer hr{
-  height: 248px;
+  height: 298px;
 }
 
 small{

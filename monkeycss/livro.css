@@ -97,6 +97,11 @@ main {
   margin-left: 0;
 }
 
+#titulo{
+margin-left: 265px;
+padding-top: 30px;
+}
+
 /* alterações no footer */
 
 
@@ -105,7 +110,7 @@ footer {
   background-color: #fff500;
   border: solid 1px;
   display: flex;
-  height: 250px;
+  height: 300px;
 }
 
 
@@ -150,9 +155,6 @@ footer nav ul li a:hover {
   display: flex;
 }
 
-footer hr{
-  height: 198px;
-}
 
 main hr{
   color: rgb(165, 165, 165);
@@ -160,7 +162,7 @@ main hr{
 
 
 footer hr{
-  height: 248px;
+  height: 298px;
 }
 
 small{
