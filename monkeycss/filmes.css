@@ -56,6 +56,10 @@ main section img:hover{
   border: #fff500 2px solid;
 }
 
+.poster{
+  width: 300px;
+}
+
 .resumo {
   font-size: larger;
   display: block;
@@ -67,7 +71,7 @@ main section img:hover{
 
 .resumo p {
   width: 1280px;
-  padding: 30px 0px;
+  padding: 30px 10px;
   text-align: start;
 }
 
@@ -102,7 +106,7 @@ main a{
 main h1{
   font-family: 'Roboto', sans-serif;
 }
-
+/* alteração no footer */
 footer {
   background-color: #fff500;
   border: solid 1px;
@@ -179,5 +183,29 @@ figure{
   text-align: center;
 }
 
+/* alteração na tipografia */
+main p,
+main h1,
+main h2 {
+  color: #fff;
+  
+}
 
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+main p{
+  font-size: 22px;
+}
+main h2{
+  font-size: 32px;
+}
+
+
+figcaption{
+font-size: 14px;
+color:#fff ;
+margin-bottom: 20px;
+}
 
