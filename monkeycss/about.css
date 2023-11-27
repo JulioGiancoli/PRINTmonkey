@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  width: 1560px;
+  width: 1562px;
   background-color: #161616;
 }
 
@@ -38,12 +38,7 @@ header img {
 }
 /* A partir daqui sao feitas as alterações visuais do corpo principal da página */
 
-main p,
-main h1,
-main h2 {
-  color: #fff;
-  font-family: 'Roboto', sans-serif;
-}
+
 
 
 main section img:hover{
@@ -69,7 +64,6 @@ main section{
 main section p{
   margin-left: 0 ;
   width:80%;
-  font-size: large;
 }
 
 .biografia{
@@ -95,7 +89,6 @@ footer {
 
 
 footer nav {
-  font-family: 'Inria Sans', sans-serif;
   width: 700px; 
   text-align: center;
 }
@@ -152,4 +145,24 @@ ul hr{
 small{
   background-color: #fff500;
   border: 1px solid;
+}
+
+/* formatação da tipografia */
+
+main p,
+main h1,
+main h2 {
+  color: #fff;
+  
+}
+
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+main p{
+  font-size: 20px;
+}
+main h2{
+  font-size: 32px;
 }

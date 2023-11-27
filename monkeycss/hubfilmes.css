@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  width: 1560px;
+  width: 1562px;
   background-color: #161616;
 }
 
@@ -126,6 +126,13 @@ main a{
   font-family: 'Roboto', sans-serif;
 }
 
+figure h2{
+  width: 200px;
+  font-size: 16px;
+}
+#unica{
+  padding: 10px;
+}
 /* alterações no footer */
 
 footer {
@@ -200,3 +207,22 @@ small{
   background-color: #fff500;
   border: 1px solid;
 }
+
+/* formatação da tipografia */
+
+main p,
+main h1,
+main h2 {
+  color: #fff;
+  
+}
+
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+figcaption{
+  font-size: 10px;
+  color:#fff ;
+}
+

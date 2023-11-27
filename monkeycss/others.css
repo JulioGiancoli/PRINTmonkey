@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  width: 1560px;
+  width: 1562px;
   background-color: #161616;
 }
 
@@ -40,12 +40,7 @@ header img {
 
 /* alterações no conteudo principal da pagina */
 
-main p,
-main h1,
-main h2 {
-  color: #fff;
-  font-family: 'Roboto', sans-serif;
-}
+
 
 main section img:hover {
   border: #fff500 2px solid;
@@ -181,3 +176,15 @@ small {
   height: auto;
 }
 
+/* formatação da tipografia */
+
+main p,
+main h1,
+main h2 {
+  color: #fff;
+  
+}
+
+*{
+  font-family: 'Roboto', sans-serif;
+}

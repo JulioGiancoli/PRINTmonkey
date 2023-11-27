@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  width: 1560px;
+  width: 1562px;
   background-color: #161616;
 }
 /* alteraçoes no header */
@@ -177,4 +177,16 @@ ul hr{
 small{
   background-color: #fff500;
   border: 1px solid;
+}
+
+/* formatação da tipografia */
+
+main p,
+main h1,
+main h2 {
+  color: #fff;
+}
+
+*{
+  font-family: 'Roboto', sans-serif;
 }

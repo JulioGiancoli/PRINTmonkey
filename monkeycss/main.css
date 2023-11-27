@@ -9,7 +9,7 @@ html{
 }
 
 body{
-  width: 1560px;
+  width: 1562px;
   background-color: #161616;
   border: solid 1px;
 }
@@ -55,9 +55,6 @@ main h2{
   margin-bottom: -10px;
 }
 
-main p{
-  font-size: large;
-}
 main article p{
   padding: 20px;
   font-family: 'Roboto', sans-serif;
@@ -165,4 +162,26 @@ small{
 ul hr{
   height: auto;
   margin-top: 5px;
+}
+
+/* formatação da tipografia */
+
+main p,
+main h1,
+main h2 {
+  color: #fff;
+  
+}
+
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+figcaption{
+  font-size: 10px;
+  color:#fff ;
+}
+
+main p{
+  font-size: large;
 }
