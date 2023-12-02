@@ -1,0 +1,189 @@
+* {
+  margin: auto auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #252525;
+}
+
+body {
+  background-color: #161616;
+}
+
+/* Configurações do header */
+header nav {
+  display: flex;
+  background-color: #fff500;
+}
+
+header nav a{
+  border: 1px solid;
+  width: 25%;
+  padding: 5px 20px 5px 20px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #000;
+}
+
+header img{
+  display: flex;
+}
+header{
+  background-color: #fff500;
+}
+/* A partir daqui sao feitas as alterações visuais do corpo principal da página */
+
+main{
+  width: 1400px;
+  background-color: #000;
+  color: white;
+}
+
+main h2{
+  padding-top: 20px;
+  margin-left: 200px;
+  margin-bottom: -10px;
+}
+
+main article p{
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+article{
+  padding: 40px 200px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+main article a{
+  text-decoration: none;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+main article img:hover{
+  border: #fff500 2px solid;
+}
+.articler{
+  padding: 40px;
+  display: flex;
+  flex-direction: row;
+  padding: 40px 200px;
+}
+
+.resumo{
+  display: flex;
+  flex-direction: column;
+}
+
+.resumo p{
+  width: 1000px;
+  padding: 20px;
+  font-size: x-large;
+} 
+
+footer {
+  background-color: #fff500;
+  border: solid 1px;
+  display: flex;
+  height: 250px;
+}
+
+
+footer nav {
+  width: 700px; 
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+footer nav ul{
+  width: 300px;
+}
+
+footer nav ul li {
+  padding: 10px;
+  list-style: none;
+}
+
+footer ul li a {
+  color: #000;
+  text-decoration: none;
+}
+
+footer nav ul li a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+.socials {
+  width: 700px;
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-between;
+}
+
+.socials img{
+  border-radius: 15%;
+}
+
+.footing {
+  width: 50%;
+  display: flex;
+}
+
+footer hr{
+  height: 198px;
+}
+
+main hr{
+  color: rgb(165, 165, 165);
+}
+
+
+footer hr{
+  height: 248px;
+}
+
+small{
+  background-color: #fff500;
+}
+
+ul hr{
+  height: auto;
+  margin-top: 5px;
+}
+
+#hrnav{
+  height: auto;
+  width: 300px;
+}
+
+/* formatação da tipografia */
+
+main p,
+main h1,
+main h2 {
+  color: #fff;
+  
+}
+
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+figcaption{
+  font-size: 10px;
+  color:#fff ;
+}
+
+main p{
+  font-size: x-large;
+}

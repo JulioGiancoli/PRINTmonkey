@@ -1,0 +1,196 @@
+* {
+  margin: auto auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #252525;
+}
+
+body {
+  background-color: #161616;
+}
+
+/* Configurações do header */
+header nav {
+  display: flex;
+  background-color: #fff500;
+}
+
+header nav a{
+  border: 1px solid;
+  width: 25%;
+  padding: 5px 20px 5px 20px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #000;
+}
+
+header img{
+  display: flex;
+}
+header{
+  background-color: #fff500;
+}
+/* A partir daqui sao feitas as alterações visuais do corpo principal da página */
+
+main section img{
+  width: 300px;
+}
+
+main section img:hover {
+  border: #fff500 2px solid;
+}
+
+main hr {
+  color: rgb(165, 165, 165);
+}
+
+main {
+  margin: auto;
+  width: 1480px;
+  background-color: #000;
+  padding-bottom: 30px;
+}
+
+.titulo {
+  font-size: xx-large;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.tamanhofont{
+  font-size: x-large;
+  margin-top: 90px;
+}
+main h2 {
+  font-family: 'Inria Sans', sans-serif;
+  
+}
+
+.fig1{
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
+
+a img{
+ border: none;
+}
+
+.imgs1{
+  display: flex;
+  padding: 200px 70px ;
+  flex-direction: row;
+}
+
+section p{
+  padding-top: 100px;
+  padding-left: 30px;
+}
+
+.nav1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-basis: auto;
+}
+
+/* Aqui começam as alterações no footer */
+footer {
+  background-color: #fff500;
+  border: solid 1px;
+  display: flex;
+  height: 300px;
+}
+
+
+footer nav {
+  font-family: 'Inria Sans', sans-serif;
+  width: 700px;
+  text-align: center;
+}
+
+footer nav ul {
+  width: 300px;
+}
+
+footer nav ul li {
+  padding: 10px;
+  list-style: none;
+}
+
+footer ul li a {
+  color: #000;
+  text-decoration: none;
+}
+
+footer nav ul li a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+.socials {
+  width: 700px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.socials img {
+  border-radius: 15%;
+}
+
+.footing {
+  width: 50%;
+  display: flex;
+}
+
+footer hr {
+  height: 298px;
+}
+
+main hr {
+  color: rgb(165, 165, 165);
+}
+small {
+  background-color: #fff500;
+}
+
+ul hr {
+  height: auto;
+  margin-top: 5px;
+}
+
+small {
+  background-color: #fff500;
+  border: 1px solid;
+}
+
+
+.footing hr{
+  height: auto;
+}
+
+#hrnav{
+  height: auto;
+  width: 300px;
+}
+/* formatação da tipografia */
+
+main p,
+main h1,
+main h2 {
+  color: #fff;
+  
+}
+
+*{
+  font-family: 'Roboto', sans-serif;
+}
